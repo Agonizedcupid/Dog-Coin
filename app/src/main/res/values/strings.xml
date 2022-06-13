@@ -1,0 +1,94 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">AlphaMine</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_login">Login</string>
+    <string name="toolbar_signup">Signup</string>
+    <string name="toolbar_about">About App</string>
+    <string name="toolbar_feedback">Feedback</string>
+
+
+    <!-- Bottom Nav -->
+    <string name="bottom_nav_home">Miner</string>
+    <string name="bottom_nav_wallet">Wallet</string>
+    <string name="bottom_nav_task">Tasks</string>
+    <string name="bottom_nav_withdrawal">Withdrawal</string>
+
+
+    <!-- Home -->
+    <string name="boost_2">Mining ×2</string>
+    <string name="progress">Progress</string>
+    <string name="type_here">Type the numbers here..</string>
+    <string name="done">Confirm</string>
+    <string name="Empty">Empty!</string>
+    <string name="Wrong">Wrong Numbers!</string>
+
+    <!-- About Activity -->
+    <string name="about">About App</string>
+    <string name="about_app_name">Dogecoin Miner</string>
+    <string name="about_website">Our Website</string>
+    <string name="about_terms">Terms and Conditions</string>
+    <string name="about_contact">Contact Us</string>
+    <string name="about_Company">Studio</string>
+    <string name="about_Inc">Your Developer Name</string>
+    <string name="about_Specialist">Android App Specialist</string>
+    <string name="about_location">Country, City</string>
+
+    <!-- Feedback -->
+    <string name="feedback">Feedback</string>
+    <string name="feedback_title">Title*</string>
+    <string name="feedback_message">Your Feedback Message*</string>
+
+    <!-- Splash Activity -->
+    <string name="splash_try_again">Try Again</string>
+    <string name="splash_no_internet">No Internet Connection</string>
+
+    <!-- Login Activity -->
+    <string name="log_in">Log in</string>
+    <string name="already_have_account">Already Have Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="your_name">Your Name</string>
+
+    <!-- Sign up -->
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="new_user">New user?</string>
+    <string name="referral_code_optional">Referral Code (optional)</string>
+    <string name="signup_agree">By Sign up you agree to the Privacy Policy, Terms and Conditions.</string>
+
+    <!-- Welcome -->
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_text">This is good app for mining dogecoin, with is app you will get great chance to get dogecoin every time you start mining with your phone.</string>
+    <string name="welcome_agree">You agree with our</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacyUrl">https://google.com</string>
+    <string name="next">Next</string>
+
+    <!-- Tasks -->
+    <string name="tasks_rate">Rate The App 5 Stars</string>
+    <string name="tasks_bonus">to get 0.0005 Dogecoin</string>
+    <string name="tasks_Youtube">Subscribe Youtube channel</string>
+    <string name="tasks_YoutubeVideo">Watch YouTube Video</string>
+    <string name="tasks_Instagram">Follow on Instagram</string>
+
+    <!-- Share App Text -->
+    <string name="Share_Text">Best App for Dogecoin Mining From Your Phone Download it Now: \n</string>
+
+    <string name="background">background</string>
+    <string name="your_email">Your Email</string>
+    <string name="attention">Attention! You must Enter your Coinbase Email only</string>
+    <string name="coinbase_email">Coinbase Email:</string>
+    <string name="save">Save</string>
+    <string name="withdrawal">Withdrawal</string>
+
+    <!-- Strings of Admob Ads -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_reward_id">ca-app-pub-3940256099942544/5224354917</string>
+
+
+</resources>

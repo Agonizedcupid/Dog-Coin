@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WelcomeActivity"
+    android:background="@color/grey_90">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/actionBarSize">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/app_logo_trans"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_xlarge"
+            android:text="@string/welcome"
+            android:textColor="@color/amber_500"
+            android:textSize="30sp"
+            android:fontFamily="@font/font1" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/spacing_xlarge"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/welcome_text"
+            android:textColor="@color/amber_500"
+            android:textSize="17sp"
+            android:fontFamily="@font/font1"
+            android:padding="25dp"
+            android:textAlignment="center"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/spacing_xlarge"/>
+
+        <CheckBox
+            android:id="@+id/agreeChekBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_agree"
+            android:textColor="@color/amber_50"
+            android:layout_gravity="center"
+            android:buttonTint="@color/white"
+            android:textColorLink="@color/amber_200"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/next"
+        android:textColor="@color/amber_50"
+        android:fontFamily="@font/font1"
+        android:textSize="18sp"
+        android:background="@color/blue_grey_900"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:visibility="invisible" />
+
+</RelativeLayout>

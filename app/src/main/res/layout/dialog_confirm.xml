@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:minHeight="120dp"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_mlarge">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/app_logo_trans" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|start"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_mlarge">
+
+        <TextView
+            android:id="@+id/randomNumberTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="123456"
+            android:textColor="@color/amber_500"
+            android:fontFamily="@font/font1"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/Confirm_EditTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:hint="@string/type_here"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:inputType="number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Done_Dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded_accent"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:paddingLeft="@dimen/spacing_mlarge"
+            android:paddingRight="@dimen/spacing_mlarge"
+            android:text="@string/done"
+            android:fontFamily="@font/font1"
+            android:textColor="@color/amber_400" />
+
+    </LinearLayout>
+
+</LinearLayout>

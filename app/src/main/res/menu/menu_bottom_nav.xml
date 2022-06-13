@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_bolt"
+        android:title="@string/bottom_nav_home" />
+
+    <item android:id="@+id/navigation_wallet"
+        android:icon="@drawable/ic_wallet"
+        android:title="@string/bottom_nav_wallet" />
+
+    <item android:id="@+id/navigation_task"
+        android:icon="@drawable/ic_tasks"
+        android:title="@string/bottom_nav_task" />
+
+    <item android:id="@+id/navigation_withdrawal"
+        android:icon="@drawable/ic_account"
+        android:title="@string/bottom_nav_withdrawal" />
+</menu>

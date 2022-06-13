@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragment.FragmentWithdrawal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/MinWithdrawalTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/withdrawal"
+            android:textColor="@color/amber_50"
+            android:textSize="17sp"
+            android:fontFamily="@font/font1"
+            android:layout_margin="20dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp" />
+
+        <Button
+            android:id="@+id/withdrawal_Btn"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:background="@drawable/btn_rounded"
+            android:text="@string/withdrawal"
+            android:textAllCaps="false"
+            android:textSize="19sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font1"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="280dp"
+            android:src="@drawable/phone_wallet"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/about_Btn"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_rounded"
+                android:text="@string/about"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font1"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/feedback_Btn"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_rounded"
+                android:text="@string/feedback"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/font1"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
